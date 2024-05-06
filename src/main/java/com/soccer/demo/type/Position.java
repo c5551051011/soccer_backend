@@ -5,12 +5,10 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum UserType {
+public enum Position {
 
-    ADMIN("ADMIN", "Admin User"),
-    SYSTEM("SYSTEM", "System User"),
-    COMMON("COMMON", "Common User")
-    ;
+    WING("WING", "Wing"),
+    CENTER_BACK("CENTER_BACK", "Center Back");
 
     private final String name;
     private final String description;
